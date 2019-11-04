@@ -104,7 +104,7 @@ class PatronRequestDetailPane extends React.Component {
       >
         <Link to={`/request/view/${record.id}/flow`}>[flow]</Link>
         &nbsp;
-        <Link to={`/request/view/${record.id}/pullslip`}>[pull slip]</Link>
+        <Link to={`/rs/view/${record.id}/pullslip`}>[pull slip]</Link>
         <ViewPatronRequest record={record} />
         {this.renderEditLayer()}
       </Pane>

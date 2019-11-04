@@ -56,7 +56,7 @@ class ResourceSharing extends React.Component {
             path={`${path}/requests`}
             render={() => <this.connectedPatronRequests {...this.props} appName={appName} />}
           />
-          <Route path={`${path}/view/:id/pullslip`} component={PullSlipRoute} />
+          <Route path={`/rs/view/:id/pullslip`} component={PullSlipRoute} />
           <Redirect
             exact
             from={`${path}/view/:id`}
